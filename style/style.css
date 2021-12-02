@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+}
+nav {
+	background-color: #f5f5f5;
+	position: fixed;
+	width: 100%;
+	border-bottom: 3px solid #803437;
+}
+.max-width {
+	max-width: 1700px;
+	padding: 0 80px;
+	margin: auto;
+}
+nav .logo {
+	float: left;
+}
+nav .logo img {
+	width: 250px;
+	padding: 20px;
+}
+nav:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+nav ul {
+	float: right;
+	list-style: none;
+	position: relative;
+}
+nav ul li {
+	float: left;
+	margin: 0 10px;
+	background-color: whitesmoke;
+}
+nav ul li a {
+	color: #803437;
+	text-decoration: none;
+	line-height: 90px;
+	font-size: 18px;
+	padding: 8px 15px;
+	font-family: 'Ubuntu';
+	transition: all ease 0.3s;
+}
+nav ul li a:hover {
+	font-size: 20px;
+	color: #151515;
+}
+nav ul ul {
+	position: absolute;
+	top: 90px;
+	opacity: 0;
+	border-top: 3px solid #803437;
+	visibility: hidden;
+	transition: all 0.3s ease;
+}
+nav ul ul ul {
+	border-top: none;
+}
+nav ul li:hover > ul {
+	opacity: 1;
+	top: 70px;
+	visibility: visible;
+}
+nav ul ul li {
+	position: relative;
+	margin: 0px;
+	width: 170px;
+	float: none;
+	display: list-item;
+	border-bottom: 1px solid rgba(128, 52, 55, 0.3);
+}
+nav ul ul li a {
+	line-height: 60px;
+}
+nav ul ul li a:hover {
+	color: #151515;
+}
+nav ul ul ul li {
+	position: relative;
+	top: -70px;
+	left: 150px;
+}
+.fa-chevron-down {
+	margin-left: 8px;
+	font-size: 15px;
+}
+.show,
+.icon,
+input {
+	display: none;
+}
+
+/*content*/
+.start .max-width {
+	margin: auto 0 auto 40px;
+}
+.start .max-width img {
+	width: 100%;
+}
+@media all and (max-width: 1200px) {
+	nav ul li a {
+		font-size: 15px;
+	}
+	.max-width {
+		padding: 0 50px;
+	}
+}
+@media all and (max-width: 1100px) {
+	.max-width {
+		padding: 0 23px;
+	}
+}
+@media all and (max-width: 990px) {
+	nav ul {
+		margin-right: 0px;
+		float: left;
+	}
+	nav.logo img {
+		padding-left: 30px;
+	}
+	nav ul li a {
+		line-height: 70px;
+		font-size: 18px;
+		width: 100%;
+		padding: 0 20px;
+	}
+	nav ul li,
+	nav ul ul li {
+		display: block;
+		width: 100%;
+		line-height: 70px;
+		font-size: 18px;
+	}
+	nav ul ul {
+		top: 70px;
+		position: static;
+		border-top: none;
+		float: none;
+		display: none;
+		opacity: 1;
+		visibility: visible;
+	}
+	nav ul ul ul {
+		position: static;
+	}
+	nav ul ul li {
+		line-height: 40px;
+		padding: 0;
+	}
+	nav ul ul a {
+		padding-left: 60px;
+		font-size: 15px;
+	}
+	.show {
+		display: block;
+		font-size: 18px;
+		padding: 0 20px;
+		line-height: 70px;
+		cursor: pointer;
+		color: #803437;
+		text-decoration: none;
+		font-family: 'Ubuntu';
+		transition: all ease 0.3s;
+	}
+	.show:hover {
+		color: #151515;
+		font-size: 20px;
+	}
+	.icon {
+		display: block;
+		color: #803437;
+		position: absolute;
+		right: 40px;
+		line-height: 90px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	nav ul a:hover {
+		box-shadow: none;
+	}
+	.show + a,
+	ul {
+		display: none;
+	}
+	[id^=btn]:checked + ul {
+		display: block;
+	}
+}
