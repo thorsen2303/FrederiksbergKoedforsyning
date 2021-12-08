@@ -4,16 +4,21 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: white;
+	background-color: whitesmoke;
 }
 nav {
 	background-color: #f5f5f5;
 	position: fixed;
 	width: 100%;
 	border-bottom: 3px solid #803437;
+	z-index: 999;
+}
+section {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .max-width {
-	max-width: 1700px;
+	max-width: 1300px;
 	padding: 0 80px;
 	margin: auto;
 }
@@ -98,11 +103,398 @@ input {
 }
 
 /*content*/
+.start {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 70vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
 .start .max-width {
-	margin: auto 0 auto 40px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
 }
 .start .max-width img {
+	width: 250px;
+	height: 250px;
+	margin-left: 250px;
+}
+.start .max-width h2 {
+	font-family: 'Belwe';
+	font-size: 30px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+.start .max-width h1 {
+	font-family: 'Belwe';
+	font-size: 70px;
+	line-height: 65px;
+	margin-left: 10px;
+}
+.start .max-width h1,
+.start .max-width h2,
+.start .max-width img {
+	text-shadow: #151515 2px 2px 4px;
+}
+
+.butikken {
+	display: flex;
+	background: url("../img/butikken_draw.JPG") no-repeat center;
+	background-size: contain;
+	height: 85vh;
 	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.butikken .max-width h1 {
+	font-family: 'Belwe';
+	font-size: 70px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+}
+.story .max-width {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.story {
+	background-color: #eeeeee;
+}
+.story .max-width div {
+	width: 45%;
+}
+.story .max-width img {
+	width: 100%;
+}
+.story .max-width h2 {
+	font-size: 25px;
+	font-family: 'Belwe';
+	color: #803437;
+}
+.story .max-width p {
+	margin-top: 10px;
+	font-family: 'Ubuntu';
+	line-height: 25px;
+}
+.img1 {
+	transform: rotateZ(2deg);
+	transform: scale(0.9);
+	opacity: 0;
+}
+.img1.transition {
+	transform: rotateZ(0deg);
+	transform: scale(1);
+	opacity: 1;
+	transition: ease all 0.8s;
+}
+
+.gourmetslagter {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.gourmetslagter .max-width {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+.gourmetslagter .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+}
+.gourmetslagter .max-width a {
+	font-family: 'Belwe';
+	font-size: 30px;
+	line-height: 55px;
+	color: white;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	text-decoration: none;
+}
+.gourmetslagter .max-width h3 {
+	margin-top: 10px;
+	font-family: 'Belwe';
+	font-size: 20px;
+	text-shadow: #151515 2px 2px 4px;
+	color: #803437;
+	text-align: center;
+}
+.gourmetvideo .max-width {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.gourmetvideo .max-width iframe {
+	width: 1300px;
+	height: 650px;
+}
+.DSM {
+	background-color: #eeeeee;
+}
+.DSM .max-width {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.DSM .max-width img {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+}
+.DSM .max-width h2 {
+	text-align: center;
+	color: #803437;
+	font-family: 'Belwe';
+	font-size: 30px;
+}
+.contact {
+	display: flex;
+	background: url("../img/kontaktchr.jpg") no-repeat center;
+	background-size: cover;
+	height: 60vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.contact .max-width h1 {
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #f5f5f5 2px 2px 4px;
+	text-align: center;
+	color: #151515;
+	margin-top: 50px;
+}
+.contactinfo .max-width {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+.contactinfo .max-width h3 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	color: #803437;
+}
+.contactinfo .max-width p {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	color: #151515;
+}
+.contactinfo .max-width img {
+	width: 300px;
+}
+.wemeat {
+	display: flex;
+	background: url("../img/wemeat.jpg") no-repeat center;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.wemeat .max-width h1 {
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.wemeat1 .max-width {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.wemeat1 .max-width div {
+	width: 45%;
+}
+.wemeat1 .max-width img {
+	width: 100%;
+	border: 10px #eeeeee solid;
+}
+.wemeat1 .max-width h2 {
+	font-size: 25px;
+	font-family: 'Belwe';
+	color: #803437;
+}
+.wemeat1 .max-width p {
+	margin-top: 10px;
+	font-family: 'Ubuntu';
+	line-height: 25px;
+}
+.img1 {
+	transform: rotateZ(5deg);
+	transform: scale(0.9);
+	opacity: 0;
+}
+.img1.transition {
+	transform: rotate(-4deg);
+	transform: scale(1);
+	opacity: 1;
+	transition: ease all 0.8s;
+}
+.boef {
+	display: flex;
+	background: url("../img/boefguide.jpg") no-repeat center;
+	background-size: cover;
+	height: 80vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.boef1 .max-width div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.boef1 .max-width h2 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+}
+.boef1 .max-width h4 {
+	font-family: 'Belwe';
+	font-size: 25px;
+	text-align: center;
+	color: #803437;
+	margin-top: 30px;
+}
+.boef1 .max-width p {
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	text-align: center;
+	color: #151515;
+	max-width: 500px;
+}
+.tip1,
+.tip2,
+.tip3,
+.tip4,
+.tip5,
+.tip6 {
+	transform: rotateZ(5deg);
+	transform: scale(0.9);
+	opacity: 0;
+}
+.tip1.transition,
+.tip2.transition,
+.tip3.transition,
+.tip4.transition,
+.tip5.transition,
+.tip6.transition {
+	transform: rotate(-4deg);
+	transform: scale(1);
+	opacity: 1;
+	transition: ease all 0.8s;
+}
+.ops {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.ops .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.ops1 .max-width div {
+	width: 300px;
+	height: 300px;
+	background-color: rgba(128, 52, 55, 0.8);
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+	transition: all 0.3s ease;
+}
+.ops1 .max-width div:hover {
+	background-color: rgba(128, 52, 55, 0);
+}
+.ops1 .max-width {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
+}
+.ops1 .max-width .top {
+	margin-bottom: 50px;
+}
+.pic1 {
+	background: url("../img/julen.jpg") no-repeat center;
+	background-size: cover;
+}
+.pic2 {
+	background: url("../img/svinekød.jpg") no-repeat center;
+	background-size: cover;
+}
+.pic3 {
+	background: url("../img/oksekød.jpg") no-repeat center;
+	background-size: cover;
+}
+.pic4 {
+	background: url("../img/fjerkræ1.jpg") no-repeat center;
+	background-size: cover;
+}
+.pic5 {
+	background: url("../img/lam.jpg") no-repeat center;
+	background-size: cover;
+}
+.pic6 {
+	background: url("../img/tilbehør.jpg") no-repeat center;
+	background-size: cover;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6 {
+	height: 300px;
+}
+.pic1 h3,
+.pic2 h3,
+.pic3 h3,
+.pic4 h3,
+.pic5 h3,
+.pic6 h3 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	text-align: center;
+	color: #f5f5f5;
+	margin: auto;
+	text-shadow: #151515 2px 2px 4px;
+}
+@media all and (max-width: 1500px) {
+	.gourmetvideo .max-width iframe {
+		width: 1000px;
+		height: 500px;
+	}
 }
 @media all and (max-width: 1200px) {
 	nav ul li a {
@@ -115,6 +507,20 @@ input {
 @media all and (max-width: 1100px) {
 	.max-width {
 		padding: 0 23px;
+	}
+	.start .max-width img {
+		width: 200px;
+		height: 200px;
+	}
+	.start .max-width h2 {
+		font-family: 'Belwe';
+		font-size: 20px;
+		line-height: 15px;
+	}
+	.start .max-width h1 {
+		font-family: 'Belwe';
+		font-size: 60px;
+		line-height: 60px;
 	}
 }
 @media all and (max-width: 990px) {
@@ -191,5 +597,59 @@ input {
 	}
 	[id^=btn]:checked + ul {
 		display: block;
+	}
+	.start .max-width img {
+		width: 110px;
+		height: 110px;
+		margin-left: 0px;
+	}
+	.start .max-width h2 {
+		font-size: 10px;
+		line-height: 10px;
+		margin-left: 5px;
+	}
+	.start .max-width h1 {
+		font-size: 30px;
+		line-height: 30px;
+		margin-left: 5px;
+	}
+	.start,
+	.butikken {
+		height: 30vh;
+	}
+	.story .max-width {
+		flex-direction: column;
+	}
+	.story .max-width div {
+		width: 100%;
+	}
+	.story .max-width img {
+		margin-top: 20px;
+	}
+	.gourmetvideo .max-width iframe {
+		height: 200px;
+	}
+	.gourmetslagter .max-width h1 {
+		font-size: 40px;
+		line-height: 65px;
+	}
+	.gourmetslagter .max-width h3 {
+		font-family: 'Belwe';
+		font-size: 15px;
+	}
+	.contactinfo .max-width {
+		flex-direction: column;
+	}
+	.wemeat1 .max-width {
+		flex-direction: column;
+	}
+	.wemeat1 .max-width div {
+		width: 100%;
+	}
+	.wemeat1 .max-width img {
+		margin-top: 20px;
+	}
+	.ops1 .max-width div {
+		margin: auto;
 	}
 }
