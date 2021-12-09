@@ -142,7 +142,7 @@ input {
 
 .butikken {
 	display: flex;
-	background: url("../img/butikken_draw.JPG") no-repeat center;
+	background: url("../img/butikkendraw.png") no-repeat center;
 	background-size: contain;
 	height: 85vh;
 	width: 100%;
@@ -425,6 +425,14 @@ input {
 	text-align: center;
 	color: #f5f5f5;
 }
+.ops1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
 .ops1 .max-width div {
 	width: 300px;
 	height: 300px;
@@ -489,6 +497,293 @@ input {
 	color: #f5f5f5;
 	margin: auto;
 	text-shadow: #151515 2px 2px 4px;
+	text-decoration: underline whitesmoke;
+}
+
+.insp {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.insp .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.insp1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.insp1 .max-width a div {
+	width: 500px;
+	height: 300px;
+}
+.insp1 .max-width {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.insp1 .max-width .top {
+	margin-bottom: 50px;
+}
+.insp1 .max-width div {
+	display: flex;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+	transition: all 0.3s ease;
+}
+.inspic1 {
+	background: url("../img/julen.jpg") no-repeat center;
+	background-size: cover;
+}
+.inspic2 {
+	background: url("../img/boefguide.jpg") no-repeat center;
+	background-size: cover;
+}
+.inspic3 {
+	background: url("../img/gourmetslagter.jpg") no-repeat center;
+	background-size: cover;
+}
+.inspic4 {
+	background: url("../img/wemeat.jpg") no-repeat center;
+	background-size: cover;
+}
+.inspic1 h3,
+.inspic2 h3,
+.inspic3 h3,
+.inspic4 h3 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	text-align: center;
+	color: #f5f5f5;
+	margin: auto;
+	text-shadow: #151515 2px 2px 4px;
+	transition: all 0.3s ease;
+	text-decoration: underline whitesmoke;
+}
+.inspic1:hover h3,
+.inspic2:hover h3,
+.inspic3:hover h3,
+.inspic4:hover h3 {
+	font-size: 50px;
+}
+.vs {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.vs .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.vs1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.vs1 .max-width a div {
+	width: 500px;
+	height: 300px;
+}
+.vs1 .max-width {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.vs1 .max-width .top {
+	margin-bottom: 50px;
+}
+.vs1 .max-width div {
+	display: flex;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+	transition: all 0.3s ease;
+}
+.vspic1 {
+	background: url("../img/dagensret.jpg") no-repeat center;
+	background-size: cover;
+}
+.vspic2 {
+	background: url("../img/ugenstilbud.jpg") no-repeat center;
+	background-size: cover;
+}
+.vspic3 {
+	background: url("../img/manedspakker.jpg") no-repeat center;
+	background-size: cover;
+}
+.vspic1 h3,
+.vspic2 h3,
+.vspic3 h3 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	text-align: center;
+	color: #f5f5f5;
+	margin: auto;
+	text-shadow: #151515 2px 2px 4px;
+	transition: all 0.3s ease;
+	text-decoration: underline whitesmoke;
+}
+.vspic1:hover h3,
+.vspic2:hover h3,
+.vspic3:hover h3 {
+	font-size: 50px;
+}
+.muah {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.muah .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.muah1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.muah1 .max-width a div {
+	width: 500px;
+	height: 300px;
+}
+.muah1 .max-width {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.muah1 .max-width .top {
+	margin-bottom: 50px;
+}
+.muah1 .max-width div {
+	display: flex;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+	transition: all 0.3s ease;
+}
+.muahpic1 {
+	background: url("../img/reception.jpg") no-repeat center;
+	background-size: cover;
+}
+.muahpic2 {
+	background: url("../img/aabenthus.jpg") no-repeat center;
+	background-size: cover;
+}
+.muahpic3 {
+	background: url("../img/poelsebord.jpg") no-repeat center;
+	background-size: cover;
+}
+.muahpic4 {
+	background: url("../img/smoerrebroed.jpg") no-repeat center;
+	background-size: cover;
+}
+.muahpic1 h3,
+.muahpic2 h3,
+.muahpic3 h3,
+.muahpic4 h3 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	text-align: center;
+	color: #f5f5f5;
+	margin: auto;
+	text-shadow: #151515 2px 2px 4px;
+	transition: all 0.3s ease;
+	text-decoration: underline whitesmoke;
+}
+.muahpic1:hover h3,
+.muahpic2:hover h3,
+.muahpic3:hover h3,
+.muahpic4:hover h3 {
+	font-size: 50px;
+}
+footer {
+	width: 100%;
+	background-color: #803437;
+	color: #f5f5f5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+footer .max-width {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer .max-width h3 {
+	font-family: 'Belwe';
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+footer .max-width p {
+	font-family: 'Ubuntu';
+	font-size: 15px;
+}
+footer .max-width .shorts .links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+footer .max-width .hours .links {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+footer .max-width .hours .links div {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+}
+footer .max-width .shorts .links div {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+}
+footer .max-width .shorts .links div a {
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	color: #f5f5f5;
+	text-decoration: none;
+	padding: 2px;
+}
+footer .max-width .shorts .links div a:hover {
+	color: #eeeeee;
+}
+footer .max-width .media a i {
+	font-size: 50px;
+	color: #f5f5f5;
+	padding: 10px;
 }
 @media all and (max-width: 1500px) {
 	.gourmetvideo .max-width iframe {
@@ -651,5 +946,25 @@ input {
 	}
 	.ops1 .max-width div {
 		margin: auto;
+	}
+	.insp1 .max-width a div {
+		width: 400px;
+	}
+	.vs1 .max-width a div {
+		width: 400px;
+	}
+	.muah1 .max-width a div {
+		width: 400px;
+	}
+	footer .max-width {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	footer .max-width h3 {
+		text-align: center;
+	}
+	footer .max-width .footinfo {
+		text-align: center;
 	}
 }
