@@ -107,7 +107,7 @@ input {
 	display: flex;
 	background: url("../img/slate.jpg") no-repeat center;
 	background-size: cover;
-	height: 70vh;
+	height: 85vh;
 	width: 100%;
 	color: whitesmoke;
 	min-height: 400px;
@@ -195,7 +195,7 @@ input {
 	display: flex;
 	background: url("../img/slate.jpg") no-repeat center;
 	background-size: cover;
-	height: 60vh;
+	height: 50vh;
 	width: 100%;
 	color: whitesmoke;
 	min-height: 400px;
@@ -266,7 +266,7 @@ input {
 	display: flex;
 	background: url("../img/kontaktchr.jpg") no-repeat center;
 	background-size: cover;
-	height: 60vh;
+	height: 50vh;
 	width: 100%;
 	color: whitesmoke;
 	min-height: 400px;
@@ -303,7 +303,7 @@ input {
 	display: flex;
 	background: url("../img/wemeat.jpg") no-repeat center;
 	background-size: cover;
-	height: 80vh;
+	height: 50vh;
 	width: 100%;
 	color: whitesmoke;
 	min-height: 400px;
@@ -354,7 +354,7 @@ input {
 	display: flex;
 	background: url("../img/boefguide.jpg") no-repeat center;
 	background-size: cover;
-	height: 80vh;
+	height: 50vh;
 	width: 100%;
 	color: whitesmoke;
 	min-height: 400px;
@@ -728,6 +728,287 @@ input {
 .muahpic4:hover h3 {
 	font-size: 50px;
 }
+.dr {
+	display: flex;
+	background: url("../img/dagensret2.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.dr .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.dr1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+}
+.dr1 h2 {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	text-align: center;
+	color: #151515;
+	margin-bottom: 20px;
+}
+.dr1 h5 {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	text-align: center;
+	color: #151515;
+	text-decoration: underline 2px #151515;
+	margin-bottom: 20px;
+}
+.dr1 .max-width {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.dr1 .max-width div {
+	background-color: white;
+	width: 500px;
+	padding: 20px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+	transition: all 0.3s ease;
+	border-radius: 5px;
+}
+.dr1 .max-width div h3 {
+	font-family: 'Belwe';
+	font-size: 30px;
+	color: #803437;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.dr1 .max-width div h4 {
+	font-family: 'Ubuntu';
+	font-size: 18px;
+	color: #151515;
+}
+.dr1 .max-width div p {
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	color: #151515;
+	margin-bottom: 10px;
+}
+.dr1 .max-width .top {
+	margin-bottom: 50px;
+}
+.dg1 {
+	background: url("../img/knifedrawn-60.png") no-repeat center;
+	background-size: contain;
+}
+.dg2 {
+	background: url("../img/knifedrawn2-60.png") no-repeat center;
+	background-size: cover;
+}
+.dg3 {
+	background: url("../img/knifedrawn3-60.png") no-repeat center;
+	background-size: cover;
+}
+.dg4 {
+	background: url("../img/knifedrawn4-60.png") no-repeat center;
+	background-size: cover;
+}
+.ut {
+	display: flex;
+	background: url("../img/ugenstilbud1.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.ut .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.ut1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.ut1 h5 {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	text-align: center;
+	color: #151515;
+	text-decoration: underline 2px #151515;
+	margin-bottom: 20px;
+}
+.ut1 .max-width {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.ut1 .max-width div {
+	background-color: white;
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+	transition: all 0.3s ease;
+	border-radius: 5px;
+}
+.ut1 .max-width div:hover h4 {
+	font-size: 20px;
+}
+.ut1 .max-width div:hover h3 {
+	font-size: 35px;
+}
+.ut1 .max-width div h3 {
+	font-family: 'Belwe';
+	font-size: 30px;
+	color: #f5f5f5;
+	transition: all 0.3s ease;
+}
+.ut1 .max-width div h4 {
+	font-family: 'Ubuntu';
+	font-size: 18px;
+	color: #f5f5f5;
+	transition: all 0.3s ease;
+}
+.ut1 .max-width .top {
+	margin-bottom: 50px;
+}
+.ug1 {
+	background: url("../img/julemedister.jpg") no-repeat center;
+	background-size: cover;
+}
+.ug2 {
+	background: url("../img/sylte.jpg") no-repeat center;
+	background-size: cover;
+}
+.ug3 {
+	background: url("../img/juleskinke.jpg") no-repeat center;
+	background-size: cover;
+}
+.ug4 {
+	background: url("../img/højrebbøf.jpg") no-repeat center;
+	background-size: cover;
+}
+.ug5 {
+	background: url("../img/skinkefars.jpg") no-repeat center;
+	background-size: cover;
+}
+.mp {
+	display: flex;
+	background: url("../img/maanedspakker.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.mp .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.mp1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.mp1 h5 {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	text-align: center;
+	color: #151515;
+	text-decoration: underline 2px #151515;
+	margin-bottom: 20px;
+}
+.mp1 .max-width {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.mp1 .max-width div {
+	background-color: white;
+	width: 350px;
+	height: 600px;
+	padding: 20px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.30);
+	transition: all 0.3s ease;
+	border-radius: 5px;
+}
+.mp1 .max-width div:hover h3 {
+	font-size: 40px;
+}
+.mp1 .max-width div:hover p {
+	display: block;
+}
+.mp1 .max-width div h3 {
+	font-family: 'Belwe';
+	font-size: 35px;
+	color: #f5f5f5;
+	transition: all 0.3s ease;
+	margin-bottom: 20px;
+}
+.mp1 .max-width div p {
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	line-height: 20px;
+	color: #f5f5f5;
+	margin-bottom: 10px;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	display: none;
+}
+.mp1 .max-width div a {
+	font-family: 'Ubuntu';
+	font-size: 13px;
+	line-height: 20px;
+	color: #f5f5f5;
+	margin-bottom: 10px;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+.mp1 .max-width div h4 {
+	font-family: 'Belwe';
+	font-size: 35px;
+	color: #f5f5f5;
+	transition: all 0.3s ease;
+}
+.mp1 .max-width .top {
+	margin-bottom: 50px;
+}
+.mpb1 {
+	background: url("../img/mp1.jpg") no-repeat center;
+	background-size: cover;
+}
+.mpb2 {
+	background: url("../img/mp2.jpg") no-repeat center;
+	background-size: cover;
+}
+.mpb3 {
+	background: url("../img/mp3.jpg") no-repeat center;
+	background-size: cover;
+}
+/*-footer-*/
 footer {
 	width: 100%;
 	background-color: #803437;
@@ -963,8 +1244,12 @@ footer .max-width .media a i {
 	}
 	footer .max-width h3 {
 		text-align: center;
+		margin-top: 50px;
 	}
 	footer .max-width .footinfo {
 		text-align: center;
+	}
+	footer .max-width .media a i {
+		margin-left: 25%;
 	}
 }
