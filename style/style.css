@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "Belwe";
+	src: url("https://db.onlinewebfonts.com/t/3ee8a7eb4aa82d9eb4f73e85e2e02eaf.eot");
+	src: url("https://db.onlinewebfonts.com/t/3ee8a7eb4aa82d9eb4f73e85e2e02eaf.eot?#iefix") format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/3ee8a7eb4aa82d9eb4f73e85e2e02eaf.woff2") format("woff2"),
+		url("https://db.onlinewebfonts.com/t/3ee8a7eb4aa82d9eb4f73e85e2e02eaf.woff") format("woff"),
+		url("https://db.onlinewebfonts.com/t/3ee8a7eb4aa82d9eb4f73e85e2e02eaf.ttf") format("truetype"),
+		url("https://db.onlinewebfonts.com/t/3ee8a7eb4aa82d9eb4f73e85e2e02eaf.svg#Belwe") format("svg");
+	font-display: swap;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -76,7 +86,7 @@ nav ul li:hover > ul {
 nav ul ul li {
 	position: relative;
 	margin: 0px;
-	width: 170px;
+	width: 230px;
 	float: none;
 	display: list-item;
 	border-bottom: 1px solid rgba(128, 52, 55, 0.3);
@@ -105,9 +115,9 @@ input {
 /*-forside-*/
 .start {
 	display: flex;
-	background: url("../img/slate.jpg") no-repeat center;
+	background: url("../img/slate.jpg");
 	background-size: cover;
-	height: 85vh;
+	height: 100vh;
 	width: 100%;
 	color: whitesmoke;
 	min-height: 400px;
@@ -116,29 +126,43 @@ input {
 	margin: auto;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 .start .max-width img {
-	width: 250px;
-	height: 250px;
-	margin-left: 250px;
+	width: 100%;
+	z-index: 1;
+}
+.start .max-width div {
+	width: 45%;
+	margin: auto;
+	text-align: center;
+}
+.start .max-width h1 {
+	font-family: 'Ubuntu';
+	color: #803437;
+	text-align: auto;
 }
 .start .max-width h2 {
 	font-family: 'Belwe';
-	font-size: 30px;
-	line-height: 25px;
-	margin-left: 10px;
+	color: #803437;
+	text-align: auto;
+	font-size: 35px;
+	line-height: 30px;
 }
-.start .max-width h1 {
-	font-family: 'Belwe';
-	font-size: 70px;
-	line-height: 65px;
-	margin-left: 10px;
+.start .max-width h3 {
+	color: whitesmoke;
+	font-size: 15px;
+	line-height: 30px;
 }
-.start .max-width h1,
-.start .max-width h2,
-.start .max-width img {
-	text-shadow: #151515 2px 2px 4px;
+.start .max-width h4 {
+	color: whitesmoke;
+	font-family: 'Ubuntu';
+	font-size: 15px;
 }
+.start .max-width .left img {
+	width: 300px;
+}
+
 /*-butikken-*/
 .butikken {
 	display: flex;
@@ -178,18 +202,6 @@ input {
 	margin-top: 10px;
 	font-family: 'Ubuntu';
 	line-height: 25px;
-}
-/*-Eventlister effect-*/
-.img1 {
-	transform: rotateZ(2deg);
-	transform: scale(0.9);
-	opacity: 0;
-}
-.img1.transition {
-	transform: rotateZ(0deg);
-	transform: scale(1);
-	opacity: 1;
-	transition: ease all 0.8s;
 }
 /*-gourmetslagter-*/
 .gourmetslagter {
@@ -325,12 +337,12 @@ input {
 	justify-content: space-between;
 	align-items: center;
 }
-.wemeat1 .max-width div {
-	width: 45%;
-}
 .wemeat1 .max-width img {
 	width: 100%;
 	border: 10px #eeeeee solid;
+}
+.wemeat1 .max-width div {
+	width: 45%;
 }
 .wemeat1 .max-width h2 {
 	font-size: 25px;
@@ -378,7 +390,7 @@ input {
 	text-align: center;
 	color: #803437;
 }
-.boef1 .max-width h4 {
+.boef1 .max-width h3 {
 	font-family: 'Belwe';
 	font-size: 25px;
 	text-align: center;
@@ -744,7 +756,7 @@ input {
 /*-dagensret-*/
 .dr {
 	display: flex;
-	background: url("../img/dagensret2.jpg") no-repeat center;
+	background: url("../img/slate.jpg") no-repeat center;
 	background-size: cover;
 	height: 50vh;
 	width: 100%;
@@ -835,7 +847,7 @@ input {
 /*-Ugens tilbud-*/
 .ut {
 	display: flex;
-	background: url("../img/ugenstilbud1.jpg") no-repeat center;
+	background: url("../img/slate.jpg") no-repeat center;
 	background-size: cover;
 	height: 50vh;
 	width: 100%;
@@ -925,7 +937,7 @@ input {
 /*-månedspakker-*/
 .mp {
 	display: flex;
-	background: url("../img/maanedspakker.jpg") no-repeat center;
+	background: url("../img/slate.jpg") no-repeat center;
 	background-size: cover;
 	height: 50vh;
 	width: 100%;
@@ -1025,7 +1037,217 @@ input {
 	background: url("../img/mp3.jpg") no-repeat center;
 	background-size: cover;
 }
-
+/*-reception-*/
+.rec {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.rec .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.rec1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.rec1 h2 {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	text-align: center;
+	color: #151515;
+	margin-bottom: 20px;
+}
+.rec1 h2 span {
+	color: #803437;
+}
+.rec1 .max-width {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.rec1 .max-width div {
+	width: 45%;
+}
+.rec1 .max-width img {
+	width: 100%;
+	border: 10px #eeeeee solid;
+}
+.rec1 .max-width h3 {
+	font-size: 25px;
+	font-family: 'Belwe';
+	color: #803437;
+}
+.rec1 .max-width p {
+	margin-top: 10px;
+	font-family: 'Ubuntu';
+	line-height: 25px;
+}
+.rec1 .max-width p span {
+	margin-top: 10px;
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	color: #803437;
+}
+.rec2 h2 {
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.rec2 .max-width .flexbook {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+.rec2 .max-width div label {
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	text-align: center;
+	color: #151515;
+	margin-bottom: 20px;
+}
+.book {
+	display: block;
+	width: 400px;
+	height: 30px;
+	border: 0.1px #151515 solid;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.bookop {
+	display: block;
+	width: 400px;
+	height: 250px;
+	border: 0.1px #151515 solid;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.button1 {
+	float: right;
+	height: 30px;
+	width: 200px;
+	margin-bottom: 50px;
+	border: 1px solid #803437;
+	background-color: white;
+	color: #803437;
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.3s all ease;
+}
+.button1:hover {
+	background-color: #803437;
+	color: white;
+}
+form {
+	margin-bottom: 50px;
+}
+/*-kvittering-*/
+.kv {
+	display: flex;
+	background: url("../img/slate.jpg") no-repeat center;
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+	color: whitesmoke;
+	min-height: 400px;
+}
+.kv .max-width h1 {
+	margin-top: 50px;
+	font-family: 'Belwe';
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: #151515 2px 2px 4px;
+	text-align: center;
+	color: #f5f5f5;
+}
+.kv1 h1 {
+	font-family: 'Belwe';
+	font-size: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #803437;
+	margin-bottom: 20px;
+}
+.kv1 h2 {
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	text-align: center;
+	color: #151515;
+	margin-bottom: 20px;
+}
+.kv1 .max-width {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.kv1 .max-width div {
+	width: 45%;
+}
+.kv1 .max-width img {
+	width: 100%;
+	border: 10px #eeeeee solid;
+}
+.kv1 .max-width h3 {
+	font-size: 25px;
+	font-family: 'Belwe';
+	color: #803437;
+	margin-bottom: 10px;
+}
+.kv1 .max-width p {
+	margin-top: 10px;
+	font-family: 'Ubuntu';
+	line-height: 25px;
+}
+.kv1 .max-width p span {
+	margin-top: 10px;
+	font-family: 'Ubuntu';
+	font-size: 20px;
+	color: #803437;
+}
+.kv1 .max-width dl dt {
+	font-family: 'Ubuntu';
+	font-size: 18px;
+	color: #151515;
+	margin-bottom: 5px;
+}
+.kv1 .max-width dl dd {
+	font-family: 'Ubuntu';
+	font-size: 15px;
+	color: #803437;
+	margin-bottom: 10px;
+}
+.kv2 h2 {
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	text-align: center;
+	color: #151515;
+	margin-bottom: 20px;
+}
+.kv2 a {
+	font-family: 'Ubuntu';
+	font-size: 25px;
+	color: #803437;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
 /*-footer-*/
 footer {
 	width: 100%;
@@ -1033,6 +1255,7 @@ footer {
 	color: #f5f5f5;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	z-index: 999;
 }
 footer .max-width {
 	display: flex;
@@ -1102,20 +1325,6 @@ footer .max-width .media a i {
 	.max-width {
 		padding: 0 23px;
 	}
-	.start .max-width img {
-		width: 200px;
-		height: 200px;
-	}
-	.start .max-width h2 {
-		font-family: 'Belwe';
-		font-size: 20px;
-		line-height: 15px;
-	}
-	.start .max-width h1 {
-		font-family: 'Belwe';
-		font-size: 60px;
-		line-height: 60px;
-	}
 }
 @media all and (max-width: 990px) {
 	nav ul {
@@ -1158,6 +1367,15 @@ footer .max-width .media a i {
 		padding-left: 60px;
 		font-size: 15px;
 	}
+	.start .max-width {
+		flex-direction: column;
+	}
+	.start .max-width .right img {
+		display: none;
+	}
+	.start .max-width div {
+		width: 100%;
+	}
 	.show {
 		display: block;
 		font-size: 18px;
@@ -1192,22 +1410,6 @@ footer .max-width .media a i {
 	[id^=btn]:checked + ul {
 		display: block;
 	}
-	.start .max-width img {
-		width: 110px;
-		height: 110px;
-		margin-left: 0px;
-	}
-	.start .max-width h2 {
-		font-size: 10px;
-		line-height: 10px;
-		margin-left: 5px;
-	}
-	.start .max-width h1 {
-		font-size: 30px;
-		line-height: 30px;
-		margin-left: 5px;
-	}
-	.start,
 	.butikken {
 		height: 30vh;
 	}
@@ -1251,6 +1453,25 @@ footer .max-width .media a i {
 	}
 	.muah1 .max-width a div {
 		width: 400px;
+	}
+	.rec1 .max-width {
+		flex-direction: column;
+	}
+	.rec1 .max-width div {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.rec1 .max-width img {
+		margin-top: 20px;
+	}
+	.kv1 .max-width {
+		flex-direction: column;
+	}
+	.kv1 .max-width div {
+		width: 100%;
+	}
+	.kv1 .max-width img {
+		margin-top: 20px;
 	}
 	footer .max-width {
 		display: flex;

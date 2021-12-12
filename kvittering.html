@@ -9,8 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="img/Weblogo_FK.png">
     <link rel="apple-touch-icon" href="img/Weblogo_FK.png">
-    <title>Gourmetslagter │ Frederiksberg Kødforsyning</title>
+    <title>Reception/Åbent hus │ Frederiksberg Kødforsyning</title>
     <script src="https://kit.fontawesome.com/17811aa79e.js" crossorigin="anonymous"></script>
+    <script src="js/kvittering.js" defer></script>
+
 </head>
 <body>
     <nav>
@@ -58,23 +60,38 @@
     </div>
     </nav>
     <main>
-        <section class="gourmetslagter">
+        <section class="kv">
             <div class="max-width">
-                <h1>Bliv Gourmetslagter</h1>
-                <h3>Vær kreativ, lær et håndværk, få god løn og masser af udviklingsmuligheder. <br> Se din fremtid som gourmetslagter.</h3>
-                <a href="https://indtilbenet.nu">INDTILBENET.NU</a>
+                <h1>Kvittering</h1>
             </div>
         </section>
-        <section class="gourmetvideo">
+        <section class="kv1">
+            <h1>Din forespørgsel er nu sendt</h1>
+            <h2>Vi vender tilbage til dig hurtigst muligt</h2>
             <div class="max-width">
-                <iframe id="vid1" src="https://www.youtube.com/embed/ZB52ri8xtu4" frameborder="0"></iframe>
+                <div>
+                    <h3>Din fremsendte forespørgsel</h3>
+                    <dl>
+                        <dt>Fulde navn:</dt>
+                        <dd id="navn"></dd>
+                        <dt>Mobil nummer:</dt>
+                        <dd id="nummer"></dd>
+                        <dt>E-mail:</dt>
+                        <dd id="email"></dd>
+                        <dt>Adresse:</dt>
+                        <dd id="adresse"></dd>
+                        <dt>Oplysninger:</dt>
+                        <dd id="oplysninger"></dd>
+                    </dl>
+                </div>
+                <div>
+                    <img class="img1" id="img1" src="img/kvittering.jpg" alt="">
+                </div>
             </div>
         </section>
-        <section class="DSM">
-            <div class="max-width">
-                <h2>I samarbejde med:</h2>
-                <img src="img/dsm_logo.png" alt="">
-            </div>
+        <section class="kv2">
+            <h2>Vi ser frem til at arbejde sammen</h2>
+            <a href="index.html">Tilbage til forsiden</a>  
         </section>
     </main>
     <footer>
@@ -146,3 +163,4 @@
     </footer>
 </body>
 </html>
+

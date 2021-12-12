@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#803437"/>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Weblogo_FK.png">
+    <link rel="apple-touch-icon" href="img/Weblogo_FK.png">
+    <title>Pølsebord │ Frederiksberg Kødforsyning</title>
+    <script src="https://kit.fontawesome.com/17811aa79e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="max-width">
+        <div class="logo"><a href="index.html"><img src="img/Logo_FK.png" alt=""></a></div>
+        <label for="btn" class="icon">
+            <span class=" fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id=btn>
+        <ul>
+            <li>
+                <label for="btn-1" class="show">Mad ud af huset<span class="fas fa-chevron-down"></span></label>
+                <a href="muah.html">Mad ud af huset<span class="fas fa-chevron-down"></span></a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="reception.html">Reception/Åbent hus</a></li>
+                    <li><a href="poelsebord.html">Pølseborde</a></li>
+                    <li><a href="smoerrebroed.html">Smørrebrød</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-2" class="show">Vores tilbud<span class="fas fa-chevron-down"></span></label>
+                <a href="vorestilbud.html">Vores tilbud<span class="fas fa-chevron-down"></span></a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li><a href="dagensret.html">Dagens ret</a></li>
+                    <li><a href="ugenstilbud.html">Ugens tilbud</a></li>
+                    <li><a href="maanedspakker.html">Månedspakker</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-3" class="show">Inspiration<span class="fas fa-chevron-down"></span></label>
+                <a href="inspiration.html">Inspiration<span class="fas fa-chevron-down"></span></a>
+                <input type="checkbox" id="btn-3">
+                <ul>
+                    <li><a href="opskrifter.html">Opskrifter</a></li>
+                    <li><a href="boefguide.html">Bøfguide</a></li>
+                    <li><a href="gourmetslagter.html">Gourmetslagter</a></li>
+                    <li><a href="wemeat.html">We Meat Blad</a></li>
+                </ul>
+            </li>
+            <li><a href="butikken.html">Butikken</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+        <section class="rec">
+            <div class="max-width">
+                <h1>Pølseborde</h1>
+            </div>
+        </section>
+        <section class="rec1">
+            <h1>Skal du forkæle din arbejdsplads eller dine gæster, <br> så er vores pølseborde den gode løsning.</h1>
+            <h2>Min. 6 kuverter</h2>
+            <div class="max-width">
+                <div>
+                    <h3>Pølsebord Nr. 1</h3>
+                    <p>Steg, roastbeef, rullepølse, salater, filet, paté, kryddersalami, salami m/f, spegeskinke, fransk salami, løg-pølse, hamburgerryg, peberbidder, kødpølse og krydderfedt.
+                    <br> <span>Pr.kuvert kun 70 kr.</span>
+                    <br>
+                    <br>
+                    <h3>Pølsebord Nr. 2</h3>
+                    <p>Gravad skinke, rullepølse,peberbidder, salami m/f og u/f, løgpølse, leverpostej m. bacon, filet, paté, steg, krydder salami, krydderfedt, hamburgerryg og svensk skinke.
+                    <br> <span>Pr.kuvert kun 75 kr.</span>
+                </p>
+                </div>
+                <div>
+                    <h3>Pølsebord Nr. 3</h3>
+                    <p>Saltkød, roastbeef, paté, rullepølse, salami m/f, flæskesteg, krydderfedt, spegeskinke, svensk skinke, krydder salami, oksebryst og leverpostej m/ bacon.
+                    <br> <span>Pr.kuvert kun 80 kr.</span>
+                    <br>
+                    <br>
+                    <h3>Pølsebord Nr. 4</h3>
+                    <p> Vi laver pakken efter dine behov og dermed skræddersyer løsning til dine behov
+                    <br> <span>Pr.kuvert kun 100 kr.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="rec2">
+            <h2>Send din forespørgsel her</h2>
+                <form action="kvittering.html">
+                    <div class="max-width">
+                        <div class="flexbook">
+                            <div>
+                                <label for="">Fulde navn: <input class="book" type="text" name="navn" ></label>
+                                <label for="">Mobilnummer: <input class="book" type="text" name="nummer"></label>
+                                <label for="">E-mail: <input class="book" type="text" name="email"></label>
+                                <label for="">Adresse: <input class="book" type="text" name="adresse"></label>
+                            </div>
+                            <div>
+                                <label for="">Oplysninger på ordren(hvilken pakke osv.): <textarea cols="40" class="bookop" type="text" class="bookop" type="text" name="oplysninger"></textarea></label>
+                            </div>
+                        </div>
+                    <button href="kvittering.html" onClick="assignValuesToVariables()" type="submit" class="button1">Send forespørgsel</button>
+                </div>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <div class="max-width">
+            <div class="footinfo">
+                <h3>Her finder du os</h3>
+                    <p>Frederiksberg Kødforsyning<br>
+                        Bøsbrovej 3B<br>
+                        8940 Randers SV<br>
+                        <br>
+                        Tlf.: 86429841<br>
+                        drsvorup@gmail.com<br>
+                        <br>
+                        CVR: 16016403</p>
+            </div>
+            <div class="hours">
+                <h3>Åbningstider</h3>
+                    <div class="links">
+                        <div>
+                            <p>Mandag:</p>
+                            <p>Tirsdag:</p>
+                            <p>Onsdag:</p>
+                            <p>Torsdag:</p>
+                            <p>Fredag:</p>                                
+                            <p>Lørdag:</p>
+                            <p>Søndag:</p>                               
+                        </div>
+                        <div>
+                            <p>07:00 - 17:30</p>
+                            <p>07:00 - 17:30</p>
+                            <p>07:00 - 17:30</p>
+                            <p>07:00 - 17:30</p>
+                            <p>07:00 - 18:00</p>                                
+                            <p>07:00 - 13:00</p>
+                            <p>Lukket</p> 
+                        </div>
+                    </div>
+            </div>
+            <div class="media">
+                <h3>Følg os her</h3>
+                <a href="https://www.facebook.com/FrederiksbergKodforsyning"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/frederiksberg_k/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="shorts">
+                <h3>Genveje</h3>
+                <div class="links">
+                    <div>
+                        <a href="muah.html">Mad ud af huset</a>
+                        <a href="reception.html">Reception/Åbent hus</a>
+                        <a href="poelsebord.html">Pølsebrød</a>
+                        <a href="smoerrebroed.html">Smørrebrød</a>
+                        <a href="vorestilbud.html">Vores tilbud</a>
+                        <a href="dagensret.html">Dagens ret</a>
+                        <a href="ugenstilbud.html">Ugens tilbud</a>
+                    </div>
+                    <div>
+                        <a href="maanedspakker.html">Månedspakker</a>
+                        <a href="inspiration.html">Inspiration</a>
+                        <a href="opskrifter.html">Opskrifter</a>
+                        <a href="boefguide.html">Bøfguide</a>
+                        <a href="gourmetslagter.html">Gourmetslagter</a>
+                        <a href="wemeat.html">We Meat Blad</a>
+                        <a href="butikken.html">Butikken</a>
+                        <a href="kontakt.html">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
