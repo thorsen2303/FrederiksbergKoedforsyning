@@ -140,12 +140,12 @@ input {
 .start .max-width h1 {
 	font-family: 'Ubuntu';
 	color: #803437;
-	text-align: auto;
+	text-align: center;
 }
 .start .max-width h2 {
 	font-family: 'Belwe';
 	color: #803437;
-	text-align: auto;
+	text-align: center;
 	font-size: 35px;
 	line-height: 30px;
 }
@@ -356,12 +356,10 @@ input {
 }
 /*-Eventlistener effect-*/
 .img1 {
-	transform: rotateZ(5deg);
 	transform: scale(0.9);
 	opacity: 0;
 }
 .img1.transition {
-	transform: rotate(-4deg);
 	transform: scale(1);
 	opacity: 1;
 	transition: ease all 0.8s;
